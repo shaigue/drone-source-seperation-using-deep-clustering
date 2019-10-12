@@ -221,3 +221,18 @@ dmypy.json
 .history
 
 # End of https://www.gitignore.io/api/python,pycharm,jupyternotebooks,visualstudiocode
+
+
+# ignore the following directory, just keep them structured
+dataset/*
+!dataset/README.txt
+experiment_output/final_results/*
+experiment_output/ground_truth/*
+experiment_output/model/*
+experiment_output/raw_phase/*
+experiment_output/results/*
+!experiment_output/final_results/README.txt
+!experiment_output/ground_truth/README.txt
+!experiment_output/model/README.txt
+!experiment_output/raw_phase/README.txt
+!experiment_output/results/README.txt
