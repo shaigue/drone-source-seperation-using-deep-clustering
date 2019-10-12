@@ -4,7 +4,7 @@ by shai guendelman and or steiner, summer of 2019.
 
 ## About the repo:
 The structure of the model is as follows:
-- **dataset** directory you should download the dataset
+- **dataset** directory you should download the dataset to
 - **demo_cache** has some samples for demonstration in the `methods_demo.ipynb`
 - **experiment_output** directory contains some output that some of the experiments produce, like the saved checkpoints and the results
 - **pb_bss** is copied from the repo at [here](https://github.com/fgnt/pb_bss), it implements some algorithms for blind source seperation on multichannel signals
